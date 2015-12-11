@@ -1,0 +1,274 @@
+@font-face{
+    font-family: 'District'; /*a name to be used later*/
+    src: url('DistProTh.otf'); /*URL to font*/
+}
+
+@font-face{
+    font-family: 'Cursive'; /*a name to be used later*/
+    src: url('Wisdom Script AJ.otf'); /*URL to font*/
+}
+
+@font-face{
+	font-family: 'Dickie';
+	src: url('Dickie.ttf');
+}
+
+html,body{
+	height      : 100%;
+	margin      : 0;
+	font-family : District;
+	background  : #dcdbe0;
+	color       : #f4ee75;
+	font-size   : 100%;
+}
+
+h1{
+	color       : #e43344;
+	font-weight : bold;
+	font-size   : 1.5em;
+}
+
+h2{
+	color       : #e43344;
+	font-weight : bold;
+	font-size   : 1.2em;
+	padding-top : 10px;
+}
+
+h3{
+	color       : #e43344;
+	font-size   : 3em;
+	font-family : Dickie;
+	margin-bottom: 0px;	
+}
+
+h4{
+	color       : #e43344;
+	font-weight : bold;
+	font-size   : 1em;
+	border-width: 0px;
+	background  : transparent;
+}
+
+h5{
+	color:#dcdbe0;
+}
+
+p{
+	line-height : 1.2;
+	color: #7A6C76;
+	padding-bottom: 4px;
+}
+
+.cityRiley{
+	min-height            : 100%;
+	min-width             : 100%;
+	width                 :	100%;
+	height                : 100%;
+	position              :	fixed;
+	top                   : 0px;
+	left                  : 0px;
+	background-repeat     : no-repeat;
+	background-attachment :	fixed;
+	background-size       : cover;
+	background-image      : url('cityrileytall.jpg');
+	background-position   : center center;
+}
+
+/*header n stuff*/
+
+.header1{
+	background-color   : #e43344;
+	height             : 100px;
+	width              : 100%;
+	position           : fixed;	
+	z-index            : 10;
+	opacity            : .5; 
+}
+
+.header2{
+	background-color   : white;
+	height             : 125px;
+	position           : absolute;
+	margin-top         : 100px;
+	width              : 100%;
+}
+
+.RileyBurgwin{
+	color       	   : #e95b69;
+	font-size          : 10em;
+	font-family        : Dickie;
+	position           : absolute;
+	margin-top		   : 107px;
+	z-index            : 1;
+	margin-left        : 90px;
+	min-width          : 600px;
+}
+
+.header3{
+	background-color   : #e43344;
+	height             : 50px;
+	position           : absolute;
+	margin-top         : 225px;
+	width              : 100%;		 
+}
+
+.homeimg{
+	max-width   : 40px;
+	position    : absolute;
+	max-height  : 40px;
+	right       : 15px;
+	top         : 5px;
+}
+
+/*summaries*/
+
+.summaryimg{
+	z-index       : 4;
+	max-width     : 35px;
+	max-height    : 35px;
+}
+
+.thedog,.thelegend,.thedream{
+	max-width      : 200px;
+	max-height     : 200px;
+	margin-left    : 6.5em;
+	display        : inline-block;
+	position       : relative;
+	z-index        : 5;
+}
+
+.thedog{
+	margin-top     : 22em;
+}
+
+.thelegend,.thedream{
+	margin-top     : 6.5em;
+}
+
+.thedream{
+	margin-bottom  : 400px;
+}
+
+.summary{
+	max-width: 200px;
+}
+
+button,.readmore{
+    background: #e43344;
+    color: #fff;
+    font-size:1em;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+a:link,a:active,a:visited,a:focus{
+	color: white;
+	text-decoration: none;
+	border-color: transparent;
+}
+
+button:hover{
+	opacity:.75;
+	color: white;
+	border-color: transparent;
+}
+
+/*pages*/
+
+.navblock{
+	position      : relative;
+	margin-left   : 0px;
+	display       : inline-block;
+	margin-left   : 95px;
+	z-index: 1
+}
+
+.navblockimg{
+	width         :100px;
+	height        :100px;
+	margin-right  :20px;
+	margin-top    :350px;
+}
+
+.lightning1,.lightning2,.lightning3{
+	margin-left   : 20px;
+}
+.lightning1,.rocket1,.print2,.rocket2,.print3,.lightning3{
+	opacity   : .5;
+}
+
+.lightning1:hover,.rocket1:hover,.print2:hover,.rocket2:hover,.print3:hover,.lightning3:hover{
+	opacity   : 1;
+}
+
+.socialIcons .icon{
+	background-color: #e43344;
+	display         : inline-block;
+	margin-left     : 10px;
+	padding         : 10px;
+	border-radius   : 100%;
+	z-index         : 2;
+}
+
+.socialIcons .icon:hover{
+	background-color: #EA606D;
+}
+
+.whitebox{
+	background-color   : white;
+	margin-left        : 60px;
+	margin-right       : 60px;
+	margin-top         : -50px;
+	min-width          : 600px;
+	position           : relative;
+	padding-left       : 30px;
+	padding-right      : 30px;
+	padding-bottom     : 100px;
+	padding-top        : 50px;
+	max-width          : 100%;
+	margin-bottom      : 400px;
+	display            : inline-block;
+	min-height         : 600px;
+}
+
+/*footer n stuff*/
+
+.socialIcons{
+	position : fixed;
+	bottom   : 15px;
+	right    : 15px;
+	z-index  : 2;
+}
+
+.socialIcons .icon{
+	background-color: #e43344;
+	display         : inline-block;
+	margin-left     : 10px;
+	padding         : 10px;
+	border-radius   : 100%;
+	z-index         : 2;
+}
+.socialIcons .icon:hover{
+	background-color: #EA606D;
+}
+.socialIcons img{
+	height : 20px;
+	width  : 20px;
+}
+
+.footer3,.footer4{
+	background-color   : #e43344;
+	height             : 40px;
+	position           : absolute;
+	width              : 100%;	
+	z-index            : 1;	
+	margin-top         : 400px; 
+}
